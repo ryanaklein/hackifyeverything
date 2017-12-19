@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48F60CAE8043A1BA2E4ACFEF /* Pods_HackifyEverythingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8CC07BDDE3C8B5C14959D8 /* Pods_HackifyEverythingTests.framework */; };
+		572EC6DA7D9D6E92C2BBE8AE /* Pods_HackifyEverything.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF3348A9EB200D829BE7898 /* Pods_HackifyEverything.framework */; };
 		6E9300191FE8D8CA00A375BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9300181FE8D8CA00A375BE /* AppDelegate.swift */; };
 		6E93001B1FE8D8CA00A375BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E93001A1FE8D8CA00A375BE /* ViewController.swift */; };
 		6E93001E1FE8D8CA00A375BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E93001C1FE8D8CA00A375BE /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		6E9300231FE8D8CA00A375BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9300211FE8D8CA00A375BE /* LaunchScreen.storyboard */; };
 		6E93002E1FE8D8CA00A375BE /* HackifyEverythingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E93002D1FE8D8CA00A375BE /* HackifyEverythingTests.swift */; };
 		6E9300391FE8D8CA00A375BE /* HackifyEverythingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9300381FE8D8CA00A375BE /* HackifyEverythingUITests.swift */; };
+		6E93004B1FE8DAA400A375BE /* AWSAPI_CSVYYQ2BKL_LambdaMicroserviceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9300491FE8DAA400A375BE /* AWSAPI_CSVYYQ2BKL_LambdaMicroserviceClient.m */; };
+		6E93004D1FE8DED000A375BE /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E93004C1FE8DED000A375BE /* awsconfiguration.json */; };
+		AB4975E95738540F4A47CAF6 /* Pods_HackifyEverythingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7B2D0FDB3C6213C0E12147 /* Pods_HackifyEverythingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DF3348A9EB200D829BE7898 /* Pods_HackifyEverything.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackifyEverything.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39118A04C200FE95C68F018C /* Pods-HackifyEverything.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackifyEverything.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackifyEverything/Pods-HackifyEverything.debug.xcconfig"; sourceTree = "<group>"; };
+		511A1AABAB21B93B769E7CBB /* Pods-HackifyEverythingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackifyEverythingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackifyEverythingTests/Pods-HackifyEverythingTests.release.xcconfig"; sourceTree = "<group>"; };
+		5308EF6E4B9E0429035E7740 /* Pods-HackifyEverythingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackifyEverythingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackifyEverythingTests/Pods-HackifyEverythingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E9300151FE8D8CA00A375BE /* HackifyEverything.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackifyEverything.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9300181FE8D8CA00A375BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E93001A1FE8D8CA00A375BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		6E9300341FE8D8CA00A375BE /* HackifyEverythingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackifyEverythingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9300381FE8D8CA00A375BE /* HackifyEverythingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackifyEverythingUITests.swift; sourceTree = "<group>"; };
 		6E93003A1FE8D8CA00A375BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9300471FE8DAA400A375BE /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		6E9300491FE8DAA400A375BE /* AWSAPI_CSVYYQ2BKL_LambdaMicroserviceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_CSVYYQ2BKL_LambdaMicroserviceClient.m; sourceTree = "<group>"; };
+		6E93004A1FE8DAA400A375BE /* AWSAPI_CSVYYQ2BKL_LambdaMicroserviceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_CSVYYQ2BKL_LambdaMicroserviceClient.h; sourceTree = "<group>"; };
+		6E93004C1FE8DED000A375BE /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		776D8218059256EE5C3EBAAE /* Pods-HackifyEverythingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackifyEverythingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackifyEverythingUITests/Pods-HackifyEverythingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91B87FFC7F77BA60531B4DDC /* Pods-HackifyEverythingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackifyEverythingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackifyEverythingUITests/Pods-HackifyEverythingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD6E5F33571D9B8AAD623E10 /* Pods-HackifyEverything.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackifyEverything.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackifyEverything/Pods-HackifyEverything.release.xcconfig"; sourceTree = "<group>"; };
+		AF8CC07BDDE3C8B5C14959D8 /* Pods_HackifyEverythingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackifyEverythingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7B2D0FDB3C6213C0E12147 /* Pods_HackifyEverythingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackifyEverythingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572EC6DA7D9D6E92C2BBE8AE /* Pods_HackifyEverything.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F60CAE8043A1BA2E4ACFEF /* Pods_HackifyEverythingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4975E95738540F4A47CAF6 /* Pods_HackifyEverythingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18E6AED6FC1CF3897D1EBD7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF3348A9EB200D829BE7898 /* Pods_HackifyEverything.framework */,
+				AF8CC07BDDE3C8B5C14959D8 /* Pods_HackifyEverythingTests.framework */,
+				BC7B2D0FDB3C6213C0E12147 /* Pods_HackifyEverythingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E93000C1FE8D8CA00A375BE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				6E93002C1FE8D8CA00A375BE /* HackifyEverythingTests */,
 				6E9300371FE8D8CA00A375BE /* HackifyEverythingUITests */,
 				6E9300161FE8D8CA00A375BE /* Products */,
+				82853A0CFD50CB95908021AF /* Pods */,
+				18E6AED6FC1CF3897D1EBD7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +130,15 @@
 		6E9300171FE8D8CA00A375BE /* HackifyEverything */ = {
 			isa = PBXGroup;
 			children = (
+				6E9300471FE8DAA400A375BE /* Bridging_Header.h */,
+				6E9300461FE8DAA400A375BE /* AmazonAws */,
 				6E9300181FE8D8CA00A375BE /* AppDelegate.swift */,
 				6E93001A1FE8D8CA00A375BE /* ViewController.swift */,
 				6E93001C1FE8D8CA00A375BE /* Main.storyboard */,
 				6E93001F1FE8D8CA00A375BE /* Assets.xcassets */,
 				6E9300211FE8D8CA00A375BE /* LaunchScreen.storyboard */,
 				6E9300241FE8D8CA00A375BE /* Info.plist */,
+				6E93004C1FE8DED000A375BE /* awsconfiguration.json */,
 			);
 			path = HackifyEverything;
 			sourceTree = "<group>";
@@ -125,6 +161,36 @@
 			path = HackifyEverythingUITests;
 			sourceTree = "<group>";
 		};
+		6E9300461FE8DAA400A375BE /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				6E9300481FE8DAA400A375BE /* Api */,
+			);
+			path = AmazonAws;
+			sourceTree = "<group>";
+		};
+		6E9300481FE8DAA400A375BE /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				6E9300491FE8DAA400A375BE /* AWSAPI_CSVYYQ2BKL_LambdaMicroserviceClient.m */,
+				6E93004A1FE8DAA400A375BE /* AWSAPI_CSVYYQ2BKL_LambdaMicroserviceClient.h */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		82853A0CFD50CB95908021AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39118A04C200FE95C68F018C /* Pods-HackifyEverything.debug.xcconfig */,
+				AD6E5F33571D9B8AAD623E10 /* Pods-HackifyEverything.release.xcconfig */,
+				5308EF6E4B9E0429035E7740 /* Pods-HackifyEverythingTests.debug.xcconfig */,
+				511A1AABAB21B93B769E7CBB /* Pods-HackifyEverythingTests.release.xcconfig */,
+				91B87FFC7F77BA60531B4DDC /* Pods-HackifyEverythingUITests.debug.xcconfig */,
+				776D8218059256EE5C3EBAAE /* Pods-HackifyEverythingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E93003D1FE8D8CA00A375BE /* Build configuration list for PBXNativeTarget "HackifyEverything" */;
 			buildPhases = (
+				371B3FC6BDFB6BA5550ED35E /* [CP] Check Pods Manifest.lock */,
 				6E9300111FE8D8CA00A375BE /* Sources */,
 				6E9300121FE8D8CA00A375BE /* Frameworks */,
 				6E9300131FE8D8CA00A375BE /* Resources */,
+				A148177F6E94A0B0DF77727C /* [CP] Embed Pods Frameworks */,
+				9DDC4A3C6059B9EB77744A64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E9300401FE8D8CA00A375BE /* Build configuration list for PBXNativeTarget "HackifyEverythingTests" */;
 			buildPhases = (
+				76CC3767770025C2498211A8 /* [CP] Check Pods Manifest.lock */,
 				6E9300251FE8D8CA00A375BE /* Sources */,
 				6E9300261FE8D8CA00A375BE /* Frameworks */,
 				6E9300271FE8D8CA00A375BE /* Resources */,
+				52D2B2D42CDF3670B33D2674 /* [CP] Embed Pods Frameworks */,
+				30E9E33B3E879B80F200340F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E9300431FE8D8CA00A375BE /* Build configuration list for PBXNativeTarget "HackifyEverythingUITests" */;
 			buildPhases = (
+				83FE10669A16EB6359E8178D /* [CP] Check Pods Manifest.lock */,
 				6E9300301FE8D8CA00A375BE /* Sources */,
 				6E9300311FE8D8CA00A375BE /* Frameworks */,
 				6E9300321FE8D8CA00A375BE /* Resources */,
+				9434FBD64099085E65D00058 /* [CP] Embed Pods Frameworks */,
+				91036E1BE3133714C9934492 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E93004D1FE8DED000A375BE /* awsconfiguration.json in Resources */,
 				6E9300231FE8D8CA00A375BE /* LaunchScreen.storyboard in Resources */,
 				6E9300201FE8D8CA00A375BE /* Assets.xcassets in Resources */,
 				6E93001E1FE8D8CA00A375BE /* Main.storyboard in Resources */,
@@ -254,6 +330,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30E9E33B3E879B80F200340F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackifyEverythingTests/Pods-HackifyEverythingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		371B3FC6BDFB6BA5550ED35E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackifyEverything-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D2B2D42CDF3670B33D2674 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackifyEverythingTests/Pods-HackifyEverythingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CC3767770025C2498211A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackifyEverythingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83FE10669A16EB6359E8178D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackifyEverythingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91036E1BE3133714C9934492 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackifyEverythingUITests/Pods-HackifyEverythingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9434FBD64099085E65D00058 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackifyEverythingUITests/Pods-HackifyEverythingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDC4A3C6059B9EB77744A64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackifyEverything/Pods-HackifyEverything-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A148177F6E94A0B0DF77727C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HackifyEverything/Pods-HackifyEverything-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackifyEverything/Pods-HackifyEverything-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E9300111FE8D8CA00A375BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +493,7 @@
 			files = (
 				6E93001B1FE8D8CA00A375BE /* ViewController.swift in Sources */,
 				6E9300191FE8D8CA00A375BE /* AppDelegate.swift in Sources */,
+				6E93004B1FE8DAA400A375BE /* AWSAPI_CSVYYQ2BKL_LambdaMicroserviceClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +601,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = ./HackifyEverything/Bridging_Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -417,6 +651,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = ./HackifyEverything/Bridging_Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -424,6 +659,7 @@
 		};
 		6E93003E1FE8D8CA00A375BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39118A04C200FE95C68F018C /* Pods-HackifyEverything.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +675,7 @@
 		};
 		6E93003F1FE8D8CA00A375BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6E5F33571D9B8AAD623E10 /* Pods-HackifyEverything.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +691,7 @@
 		};
 		6E9300411FE8D8CA00A375BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5308EF6E4B9E0429035E7740 /* Pods-HackifyEverythingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +709,7 @@
 		};
 		6E9300421FE8D8CA00A375BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511A1AABAB21B93B769E7CBB /* Pods-HackifyEverythingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +727,7 @@
 		};
 		6E9300441FE8D8CA00A375BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B87FFC7F77BA60531B4DDC /* Pods-HackifyEverythingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +744,7 @@
 		};
 		6E9300451FE8D8CA00A375BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776D8218059256EE5C3EBAAE /* Pods-HackifyEverythingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
